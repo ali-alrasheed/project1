@@ -1,0 +1,136 @@
+.container {
+  background-color: black;
+  color: white;
+
+  display: grid;
+  border: 1px solid black;
+  grid-template-areas:
+    "result result result result"
+    "remove change mode kisma"
+    "seven eate nighn mult"
+    "four five six minas"
+    "won tow three plus"
+    "zero zero quma equal";
+
+  gap: 5px;
+  padding: 20px;
+  margin: 35%;
+  margin-top: 50px;
+}
+.container > div {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+
+  border-radius: 20px;
+}
+
+.bar-result {
+  grid-area: result;
+}
+.item0 {
+  grid-area: zero;
+  background-color: rgb(29, 25, 25);
+}
+.item1 {
+  grid-area: won;
+  background-color: rgb(29, 25, 25);
+}
+.item2 {
+  grid-area: tow;
+  background-color: rgb(29, 25, 25);
+}
+.item3 {
+  grid-area: three;
+  background-color: rgb(29, 25, 25);
+}
+.item4 {
+  grid-area: four;
+  background-color: rgb(29, 25, 25);
+}
+.item5 {
+  grid-area: five;
+  background-color: rgb(29, 25, 25);
+}
+.item6 {
+  grid-area: six;
+  background-color: rgb(29, 25, 25);
+}
+.item7 {
+  grid-area: seven;
+  background-color: rgb(29, 25, 25);
+}
+.item8 {
+  grid-area: eate;
+  background-color: rgb(29, 25, 25);
+}
+.item9 {
+  grid-area: nighn;
+  background-color: rgb(29, 25, 25);
+}
+
+.proREM {
+  grid-area: remove;
+  background-color: rgb(29, 25, 25);
+}
+.proChange {
+  grid-area: change;
+  background-color: rgb(29, 25, 25);
+}
+.proMOD {
+  grid-area: mode;
+  background-color: rgb(29, 25, 25);
+}
+.proK {
+  grid-area: kisma;
+}
+.proMUL {
+  grid-area: mult;
+}
+.proMIN {
+  grid-area: minas;
+}
+.proPL {
+  grid-area: plus;
+}
+.proEQ {
+  grid-area: equal;
+}
+.proQM {
+  grid-area: quma;
+  background-color: rgb(29, 25, 25);
+}
+.proK,
+.proMUL,
+.proMIN,
+.proPL,
+.proEQ {
+  background-color: orange;
+}
+/*
+.item0,
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.proChange,
+.proREM,
+.proChange,
+.proMOD,
+.proK,
+.proMUL,
+.proMIN,
+.proPL,
+.proEQ,
+.proQM {
+  background-color: black;
+  color: white;
+  border: 1px solid goldenrod;
+  font-size: 25px;
+  text-align: center;
+}*/
